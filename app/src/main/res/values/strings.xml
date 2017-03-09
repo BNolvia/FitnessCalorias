@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Triple Impact</string>
+    <string name="app_name">Fitness</string>
     <string name="define_your_level">Define your current level</string>
     <string name="define_your_level_description">Try for 1 minute to make the maximum number of push-ups (chest), rest 30 seconds and do the maximum number of squats (legs) in 2 minutes, rest 45 seconds and do the maximum amount of sit-ups (press) for 3 minutes. Do not embellish your results, if you start with the wrong level, it is possible to significantly reduce the effectiveness of the training. Even if your initial result will be more than modest, do not worry, you can achieve maximum success, if you are honest with ourselves, from the beginning to the end of the training.</string>
     <string name="thank_you1">Thank you for using the application!</string>

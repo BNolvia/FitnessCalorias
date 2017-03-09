@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.example.berenice.fitness.adapter.LevelAdapter;
 import com.example.berenice.fitness.domain.Level;
 
 import java.util.ArrayList;
