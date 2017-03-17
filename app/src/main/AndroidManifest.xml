@@ -95,6 +95,12 @@
             android:screenOrientation="portrait"
             android:name="com.example.berenice.fitness.Sabritas">
         </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.example.berenice.fitness.Uva">
+        </activity>
+
+
 
         <activity
             android:screenOrientation="portrait"
