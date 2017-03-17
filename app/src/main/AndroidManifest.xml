@@ -63,6 +63,11 @@
 
         <activity
             android:screenOrientation="portrait"
+            android:name="com.example.berenice.fitness.CocaCola">
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
             android:name="com.example.berenice.fitness.ProgressActivity">
         </activity>
         <activity
