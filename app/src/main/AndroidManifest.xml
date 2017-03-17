@@ -70,7 +70,10 @@
             android:screenOrientation="portrait"
             android:name="com.example.berenice.fitness.CocaColaLight">
         </activity>
-
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.example.berenice.fitness.Frituras">
+        </activity>
         <activity
             android:screenOrientation="portrait"
             android:name="com.example.berenice.fitness.ProgressActivity">
