@@ -39,6 +39,11 @@
 
         <activity
             android:screenOrientation="portrait"
+            android:name="com.example.berenice.fitness.Agua">
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
             android:name="com.example.berenice.fitness.Pera">
         </activity>
 
