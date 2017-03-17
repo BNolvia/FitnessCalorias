@@ -129,6 +129,11 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
+    public void onStartcalorias(View v){
+        Intent intent = new Intent(this, Calorias.class);
+        startActivity(intent);
+    }
+
     public void onInstructionsClick(View v){
         Intent intent = new Intent(this, InstructionsActivity.class);
         startActivityForResult(intent, SELECT_LEVEL);

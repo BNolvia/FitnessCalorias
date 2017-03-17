@@ -129,6 +129,15 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/calorias"
+            style="@style/homeButton"
+            android:background="@drawable/button_green"
+            android:onClick="onStartcalorias"
+            android:text="@string/Calorias"
+            android:textColor="#ffffff" />
+
+
+        <Button
             android:id="@+id/start_button"
             style="@style/homeButton"
             android:background="@drawable/button_green"
