@@ -47,9 +47,15 @@
             android:name="com.example.berenice.fitness.Pera">
         </activity>
         <activity
+        android:screenOrientation="portrait"
+        android:name="com.example.berenice.fitness.Caramelos">
+    </activity>
+
+        <activity
             android:screenOrientation="portrait"
-            android:name="com.example.berenice.fitness.Caramelos">
+            android:name="com.example.berenice.fitness.Cerveza">
         </activity>
+
         <activity
             android:screenOrientation="portrait"
             android:name="com.example.berenice.fitness.ProgressActivity">
