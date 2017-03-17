@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_dotted"
+    android:background="@drawable/gyma"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -16,7 +16,7 @@
         android:layout_height="40sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/tripleimpact" />
+        android:src="@drawable/s" />
 
     <RelativeLayout
         android:id="@+id/status_container_layout"
@@ -122,19 +122,22 @@
     </RelativeLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:id="@+id/Layout1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/status_container_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="6dp">
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_below="@+id/status_container_layout"
         android:layout_marginTop="20sp"
-        android:orientation="vertical">
-
-        <Button
-            android:id="@+id/calorias"
-            style="@style/homeButton"
-            android:background="@drawable/button_green"
-            android:onClick="onStartcalorias"
-            android:text="@string/Calorias"
-            android:textColor="#ffffff" />
+        android:orientation="horizontal"
+        android:layout_height="80dp">
 
 
         <Button
@@ -143,7 +146,8 @@
             android:background="@drawable/button_green"
             android:onClick="onStartClick"
             android:text="@string/start"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:layout_width="100dp" />
 
         <Button
             android:id="@+id/continue_button"
@@ -151,7 +155,8 @@
             android:background="@drawable/button_green"
             android:onClick="onContinueClick"
             android:text="@string/continue_text"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:layout_width="100dp" />
 
         <Button
             android:id="@+id/start_new_button"
@@ -159,27 +164,58 @@
             android:background="@drawable/button_green"
             android:onClick="onStartNewClick"
             android:text="@string/start_new_text"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:layout_width="100dp" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="143dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="81dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="44dp"
+        android:layout_marginEnd="44dp"
+        android:layout_height="266dp">
 
         <Button
             android:id="@+id/progress_button"
             style="@style/homeButton"
             android:background="@drawable/button_grey"
             android:onClick="onProgressClick"
-            android:text="@string/my_progress" />
+            android:text="@string/my_progress"
+            android:layout_width="113dp" />
 
         <Button
             android:id="@+id/instructions_button"
             style="@style/homeButton"
             android:background="@drawable/button_grey"
             android:onClick="onInstructionsClick"
-            android:text="@string/instructions_text" />
+            android:text="@string/instructions_text"
+            android:layout_width="113dp" />
 
         <Button
             android:id="@+id/credits_button"
             style="@style/homeButton"
             android:background="@drawable/button_grey"
             android:onClick="onCreditsClick"
-            android:text="@string/credits" />
+            android:text="@string/credits"
+            android:layout_width="113dp" />
+
+        <Button
+            android:id="@+id/calorias"
+            style="@style/homeButton"
+            android:background="@drawable/button_green"
+            android:onClick="onStartcalorias"
+            android:text="@string/Calorias"
+            android:textColor="#ffffff"
+            android:layout_width="113dp" />
     </LinearLayout>
+
 </RelativeLayout>
