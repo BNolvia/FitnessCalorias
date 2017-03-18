@@ -211,7 +211,7 @@
         <Button
             android:id="@+id/calorias"
             style="@style/homeButton"
-            android:background="@drawable/button_green"
+            android:background="@drawable/tex"
             android:onClick="onStartcalorias"
             android:text="@string/Calorias"
             android:textColor="#ffffff"
