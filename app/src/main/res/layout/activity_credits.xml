@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/gym"
+    android:background="@drawable/fit"
     tools:context="com.example.berenice.fitness.CreditsActivity"
     >
 
@@ -17,8 +17,7 @@
         android:layout_height="40sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/credits"
-        android:background="@color/common_google_signin_btn_text_dark_focused" />
+        android:src="@drawable/credits" />
 
     <TextView
         android:id="@+id/thank_you_text"
@@ -27,7 +26,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/c_header_image"
         android:text="@string/thank_you1"
-        android:textColor="#030303"
+        android:textColor="#ffffff"
         android:textSize="18dip"
         android:textStyle="bold" />
 
@@ -38,7 +37,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dip"
         android:layout_below="@+id/thank_you_text"
-        android:textColor="#030303"
+        android:textColor="#ffffff"
         android:textSize="15dip"
         android:textStyle="normal" />
 
@@ -49,7 +48,7 @@
         android:layout_centerHorizontal="false"
         android:layout_margin="5dip"
         android:layout_below="@+id/thank_you_text2"
-        android:textColor="#030303"
+        android:textColor="#ffffff"
         android:textSize="15dip"
         android:textStyle="bold" />
     <TextView
@@ -61,7 +60,7 @@
         android:layout_marginBottom="15dip"
         android:layout_below="@+id/thank_you_text3"
         android:text="@string/thank_you3"
-        android:textColor="#030303"
+        android:textColor="#ffffff"
         android:textSize="15dip"
         android:textStyle="normal" />
 
@@ -83,7 +82,7 @@
         android:layout_toRightOf="@+id/boogoogoo_icon"
         android:layout_alignTop="@+id/boogoogoo_icon"
         android:text="@string/boogoogoo"
-        android:textColor="#030303"
+        android:textColor="#ffffff"
         android:textSize="15dip"
         android:textStyle="normal" />
     <ImageView
@@ -104,7 +103,7 @@
         android:layout_toRightOf="@+id/sicknesstracker_icon"
         android:layout_alignTop="@+id/sicknesstracker_icon"
         android:text="@string/sicknesstracker"
-        android:textColor="#030303"
+        android:textColor="#ffffff"
         android:textSize="15dip"
         android:textStyle="normal" />
 
@@ -126,7 +125,7 @@
         android:layout_toRightOf="@+id/eventscalendar_icon"
         android:layout_alignTop="@+id/eventscalendar_icon"
         android:text="@string/eventscalendar"
-        android:textColor="#030303"
+        android:textColor="#ffffff"
         android:textSize="15dip"
         android:textStyle="normal" />
 

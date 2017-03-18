@@ -176,13 +176,13 @@
     <LinearLayout
         android:layout_width="143dp"
         android:orientation="vertical"
-        android:layout_marginBottom="81dp"
-        android:layout_alignParentBottom="true"
+        android:layout_marginRight="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_height="266dp"
+        android:layout_marginTop="62dp"
+        android:layout_alignTop="@+id/Layout1"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="44dp"
-        android:layout_marginEnd="44dp"
-        android:layout_height="266dp">
+        android:layout_alignParentEnd="true">
 
         <Button
             android:id="@+id/progress_button"
