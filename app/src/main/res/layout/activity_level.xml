@@ -13,7 +13,7 @@
         android:id="@+id/define_level_image"
         android:layout_width="250sp"
         android:layout_height="50sp"
-        android:src="@drawable/level"
+        android:src="@drawable/nivel"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 

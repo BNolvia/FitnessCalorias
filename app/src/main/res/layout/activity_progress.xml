@@ -14,7 +14,7 @@
         android:layout_height="50sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/progress" />
+        android:src="@drawable/progreso" />
 
     <se.emilsjolander.stickylistheaders.ExpandableStickyListHeadersListView
         android:id="@+id/workouts_list"

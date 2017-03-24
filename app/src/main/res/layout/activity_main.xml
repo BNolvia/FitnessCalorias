@@ -94,10 +94,10 @@
                 style="@style/descValueText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/start_date_text"
                 android:layout_below="@+id/level_text"
-                android:layout_toRightOf="@+id/last_workout_label"
-                android:text="Week 1/Day 1 (13,15,17,14,15,13)" />
+                android:text="Semana 1/Dia 1 (13,15,17,14,15,13)"
+                android:layout_toRightOf="@+id/level_text"
+                android:layout_toEndOf="@+id/level_text" />
 
             <TextView
                 android:id="@+id/next_workout_label"
@@ -117,7 +117,7 @@
                 android:layout_alignLeft="@+id/last_workout_text"
                 android:layout_below="@+id/last_workout_text"
                 android:layout_toRightOf="@+id/next_workout_label"
-                android:text="Week 1/Day 2 (13,15,17,14,15,13)" />
+                android:text="Semana 1/Dia 2 (13,15,17,14,15,13)" />
         </RelativeLayout>
     </RelativeLayout>
 
@@ -174,7 +174,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="143dp"
+        android:layout_width="150dp"
         android:orientation="vertical"
         android:layout_marginRight="26dp"
         android:layout_marginEnd="26dp"
@@ -190,7 +190,7 @@
             android:background="@drawable/button_grey"
             android:onClick="onProgressClick"
             android:text="@string/my_progress"
-            android:layout_width="113dp" />
+            android:layout_width="167dp" />
 
         <Button
             android:id="@+id/instructions_button"
@@ -198,7 +198,7 @@
             android:background="@drawable/button_grey"
             android:onClick="onInstructionsClick"
             android:text="@string/instructions_text"
-            android:layout_width="113dp" />
+            android:layout_width="match_parent" />
 
         <Button
             android:id="@+id/credits_button"
@@ -206,7 +206,7 @@
             android:background="@drawable/button_grey"
             android:onClick="onCreditsClick"
             android:text="@string/credits"
-            android:layout_width="113dp" />
+            android:layout_width="169dp" />
 
         <Button
             android:id="@+id/calorias"

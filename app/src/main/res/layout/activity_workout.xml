@@ -12,7 +12,7 @@
         android:id="@+id/w_header_label"
         android:layout_width="200sp"
         android:layout_height="40sp"
-        android:src="@drawable/workout"
+        android:src="@drawable/workouto"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
@@ -20,7 +20,7 @@
         android:id="@+id/w_description_label"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Week 1/Day 1/Easy"
+        android:text="Semana 1/Dia 1/Facil"
         android:textColor="#ffffff"
         android:textSize="20dp"
         android:layout_marginLeft="@dimen/activity_vertical_margin"
